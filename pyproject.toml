@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "brokenlinkfinder"
+version = "0.1.0"
+description = "find broken link where the domain as expired"
+authors = ["splmloic <l2ct@protonmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^3.0.3"
+celery = "^5.4.0"
+redis = "^5.0.8"
+rabbitmq = "^0.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
